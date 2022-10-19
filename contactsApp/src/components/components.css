@@ -1,0 +1,25 @@
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+button{
+   
+    padding: 5px 20px;
+}
+.search-bar-container{
+    display: flex;
+    justify-content: centers;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
