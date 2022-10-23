@@ -1,0 +1,21 @@
+.city-input input{
+    padding: 5px;
+    
+}
+
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.weather-container{
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+}

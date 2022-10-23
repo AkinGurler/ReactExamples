@@ -1,0 +1,10 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+  margin-top:-30vh;
+  background-image:url(https://img.freepik.com/free-vector/blue-cloudy-daylight-background-weather-design_33099-512.jpg) ;
+  background-size: cover;
+}
