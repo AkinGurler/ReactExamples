@@ -1,7 +1,37 @@
-.city-input input{
-    padding: 5px;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+
+.city-input{
+    margin: 2rem;
+    display: flex;
+    gap: 10px;
+
+}
+
+.city-input input{
+
+   padding: 2px 5px;
+   width: 300px;
+   
+}
+.city-input button{
+    background-color:rgb(199, 199, 40);
+    border-color: rgb(199, 199, 40);
+    border-radius: 20px;
+    color:rgb(2, 44, 80);
+    padding: 5px;
+}
+.city-input button:hover{
+    background-color: white;
+    color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 .weather-card{
     display: flex;
@@ -11,11 +41,15 @@
     background-color: aquamarine;
     border-radius: 10px;
     padding: 10px;
+    gap: 15px;
     
 }
 
-.weather-container{
+.weather-card-container{
     margin: 2rem;
     display: flex;
     gap: 2rem;
+}
+.weather-container{
+   text-align: center;
 }
